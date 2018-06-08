@@ -1,0 +1,396 @@
+/*GRID*/
+
+#grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header-main header-main"
+        "title title"
+        "text1 text1"
+        "picture1 paragraph1"
+        "text2 text2"
+        "picture2 paragraph2"
+        "text3 text3"
+        "picture3 paragraph3"
+        "text4 text4"
+        "picture4 paragraph4"
+        "text5 text5"
+        "picture5 paragraph5"
+        "text6 text6"
+        "text7 text7"
+        "picture6 paragraph6"
+        "text8 text8"
+        "picture7 paragraph7"
+        "text9 text9"
+        "picture8 paragraph8"
+        "text10 text10"
+        "picture9 paragraph9"
+        "footer footer";
+}
+
+/*grid areas*/ 
+
+#header-main{
+    grid-area: header-main;
+}
+
+#title{
+    grid-area: title;
+}
+
+#text1{
+    grid-area: text1;
+}
+
+#picture1{
+    grid-area: picture1;
+}
+
+#paragraph1{
+    grid-area: paragraph1;
+    
+}
+
+#text2{
+    grid-area: text2;
+    
+}
+#picture2{
+    grid-area: picture2;
+    
+}
+
+#paragraph2{
+    grid-area: paragraph2;
+    
+}
+
+#text3{
+    grid-area: text3;
+    
+}
+
+#picture3{
+    grid-area: picture3;
+    
+}
+
+#paragraph3{
+    grid-area: paragraph3;
+    
+}
+
+#text4{
+    grid-area: text4;
+    
+}
+
+#picture4{
+    grid-area: picture4;
+    
+}
+
+#paragraph4{
+    grid-area: paragraph4;
+    
+}
+
+#text5{
+    grid-area: text5;
+    
+}
+#picture5{
+    grid-area: picture5;
+    
+}
+
+#paragraph5{
+    grid-area: paragraph5;
+    
+}
+
+#text6{
+    grid-area: text6;
+    
+}
+
+#text7{
+    grid-area: text7;
+    
+}
+
+#picture6{
+    grid-area: picture6;
+    
+}
+
+#paragraph6{
+    grid-area: paragraph6;
+    
+}
+
+#text8{
+    grid-area: text8;
+    
+}
+
+#picture7{
+    grid-area: picture7;
+    
+}
+
+#paragraph7{
+    grid-area: paragraph7;
+    
+}
+
+#text9{
+    grid-area: text9;
+    
+}
+
+#picture8{
+    grid-area: picture8;
+    
+}
+
+#paragraph8{
+    grid-area: paragraph8;
+    
+}
+
+#text10{
+    grid-area: text10;
+    
+}
+
+#picture9{
+    grid-area: picture9;
+    
+}
+
+#paragraph9{
+    grid-area: paragraph9;
+    
+}
+
+#footer{
+    grid-area: footer;
+    
+}
+
+
+
+
+
+
+
+/*HEADER*/
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d5d2c6;
+    width:100%;
+    height:60px;
+    font-family:"Josefin Sans";
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+.myname{
+    display: block;
+    color: white;
+    text-align: center;
+  
+    text-decoration: none;
+    float:left;
+    font-size: 30px;
+    height:60px;
+    font-family:"Josefin Sans";
+   
+    
+    
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h1{
+    font-family: "Josefin Sans";
+    text-align: center;
+    color:#404040;
+    
+}
+
+h2{font-family: "Josefin Sans";
+    
+    color:#404040;
+    margin-left:20px;
+    
+    
+}
+
+img{
+    width:300px;
+    height:300px;
+    margin-left: 20px;
+    
+}
+
+img:hover {
+    box-shadow: 0px 0px 10px grey;
+}
+
+p{
+    
+    border-style:dashed;
+    border-radius: 1.5em;
+    border-color:#cfc6d5;
+    font-family:"Roboto";
+    padding:20px;
+    color:#404040;
+    width:600px;
+    height:110px;
+    margin-left: 20px;
+    margin-top:50px;
+    
+    
+}
+
+
+
+
+/*FOOTER*/
+
+.footer{
+    grid-area:footer;
+
+    font-family:"Josefin Sans";
+    font-size:15px;
+    position:static;
+    right:0;
+    bottom:0;
+    left:0;
+    padding:1rem;
+    background-color:#d5d2c6;
+    text-align:left;
+    color:white;
+
+    text-align:center;}
+
+
+/*MEDIA QUERIES */
+@media all and (max-width:600px){
+    #grid{
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+        grid-template-areas: 
+            "header-main"
+            "title"
+            "text1"
+            "picture1"
+            "paragraph1"
+            "text2"
+            "picture2"
+            "paragraph2"
+            "text3"
+            "picture3"
+            "paragraph3"
+            "text4"
+            "picture4"
+            "paragraph4"
+            "text5"
+            "picture5"
+            "paragraph5"
+            "text6"
+            "text7"
+            "picture6"
+            "paragraph6"
+            "text8"
+            "picture7"
+            "paragraph7"
+            "text9"
+            "picture8"
+            "paragraph8"
+            "text10"
+            "picture9"
+            "paragraph9"
+            "footer";
+            
+    }
+    
+    .myname{
+    display: block;
+    color:white;
+    text-align: center;
+  
+    text-decoration: none;
+    float:left;
+    font-size: 15px;
+    height:60px;
+    
+    
+    }
+
+    li {
+    float: right;
+    font-size:15px;
+}
+    h1{
+    font-family: "Josefin Sans";
+    text-align: center;
+    color:#404040;
+    font-size:15px;
+}
+    
+    h2{font-family: "Josefin Sans";
+    
+    color:#404040;
+    margin-left:20px;
+    font-size:15px;
+    
+    
+}
+    img{
+    width:250px;
+    height:250px;
+    margin-left: 60px;
+    
+}
+    p{
+    
+    border-style:dashed;
+    border-radius: 1.5em;
+    border-color:#cfc6d5;
+    font-family:"Roboto";
+    padding:20px;
+    color:#404040;
+    width:270px;
+    height:110px;
+    margin-left: 20px;
+    margin-top:50px;
+    font-size:11px;
+    
+    
+}
+    
+    
+}

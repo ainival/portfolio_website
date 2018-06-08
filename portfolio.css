@@ -1,0 +1,151 @@
+/*HEADER*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d5d2c6;
+    width:100%;
+    height:60px;
+    font-family:"Josefin Sans";
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+.myname{
+    display: block;
+    color: white;
+    text-align: center;
+  
+    text-decoration: none;
+    float:left;
+    font-size: 30px;
+    height:60px;
+   
+    
+    
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+h1{
+    font-family: "Josefin Sans";
+    text-align: center;
+    color:#404040;
+    
+}
+
+
+.image{
+    width:250px;
+    height:250px;
+    padding:35px;
+    margin-left:20px;
+    
+}
+
+.image:hover{
+    opacity:0.5;
+    
+}
+
+p{
+    font-family:"Roboto", sans-serif;
+    font-size:20px;
+    color:#404040;
+    text-align: center;
+    padding:30px;
+    
+}
+
+
+
+/*footer*/
+
+
+#footer{
+    grid-area:footer;
+
+    font-family:"Josefin Sans";
+    font-size:15px;
+    position:static;
+    right:0;
+    bottom:0;
+    left:0;
+    padding:1rem;
+    background-color:#d5d2c6;
+    text-align:left;
+    color:white;
+
+    text-align:center;}
+
+
+/*MEDIA QUERIES */
+@media all and (max-width:600px){
+    p{
+    font-family:"Roboto", sans-serif;
+    font-size:15px;
+    color:#404040;
+    text-align: center;
+    padding:30px;
+        
+    }
+    
+    h1{
+    font-family: "Roboto";
+    text-align: center;
+    color:#404040;
+    font-size:25px;
+    }
+    
+    
+.myname{
+    display: block;
+    color:white;
+    text-align: center;
+  
+    text-decoration: none;
+    float:left;
+    font-size: 15px;
+    height:60px;
+    
+    
+    }
+
+    li {
+    float: right;
+    font-size:15px;
+}
+    
+    
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
