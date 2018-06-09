@@ -1,0 +1,156 @@
+/*HEADER*/
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d5d2c6;
+    width:100%;
+    height:60px;
+    font-family:"Josefin Sans";
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+.myname{
+    display: block;
+    color: white;
+    text-align: center;
+  
+    text-decoration: none;
+    float:left;
+    font-size: 30px;
+    height:60px;
+    font-family:"Josefin Sans";
+   
+    
+    
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.background {
+  position: relative;
+  top: 0;
+  left: 0;
+width:100%;
+}
+.profile {
+  position: absolute;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+    width:400px;
+    margin-left: 35vw;
+    
+    }
+
+.hello {
+    padding: 20px;
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    font-family:"Roboto";
+    font-size:20px;
+    color:#404040;
+    height:20%;
+    width:70%;
+    text-align:center;
+    margin-top:17vw;
+    
+}
+
+
+
+/*FOOTER*/
+
+.footer{
+    grid-area:footer;
+
+    font-family:"Josefin Sans";
+    font-size:15px;
+    position:static;
+    right:0;
+    bottom:0;
+    left:0;
+    padding:1rem;
+    background-color:#d5d2c6;
+    text-align:left;
+    color:white;
+
+    text-align:center;}
+
+/*MEDIA QUERIES */
+@media all and (max-width:600px){
+    
+    .myname{
+    display: block;
+    color:white;
+    text-align: center;
+  
+    text-decoration: none;
+    float:left;
+    font-size: 15px;
+    height:60px;
+    
+    
+    }
+
+    li {
+    float: right;
+    font-size:15px;
+}
+    
+    .profile {
+  position: absolute;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+    width:80px;
+    margin-left: 35vw;
+    
+    }
+    
+    .hello {
+ 
+    position:absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    font-family:"Roboto";
+    font-size:10px;
+    color:#404040;
+    height:20%;
+    width:70%;
+    text-align:center;
+    margin-top:17vw;
+    
+}
+
+    
+    
+    
+    
+    
+}
